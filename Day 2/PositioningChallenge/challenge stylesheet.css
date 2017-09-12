@@ -28,18 +28,18 @@
 		display: inline-block;
 		margin-right: 5px;
 		width: 45%;
-		height: 700px;
 		border-color: gray;
 		background-color: pink;
+		margin-bottom: 100px;
 	}
 	
 	#secondColumn{
 		display: inline-block;
 		margin-left: 5px;
 		width: 45%;
-		height: 700px;
 		border-color: gray;
 		background-color: pink;
+		margin-bottom: 100px;
 	}
 	
 	#footer {
