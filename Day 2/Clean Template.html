@@ -6,6 +6,13 @@
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<style type="text/css">
 
+			#div 
+			{
+    			-webkit-box-sizing: border-box;
+    			-moz-box-sizing: border-box;
+    			box-sizing: border-box;
+			}
+
 			#container
 			{
 				margin-right:auto; /*center container with margins left & right set to auto*/
@@ -29,28 +36,68 @@
 			}
 			#sidebar{
 				display: inline-block;
-				width: 350px;
-				height: 320px;
+				width: 475px;
 				margin-right: 5px;
+				padding: 0px, 40px;
 			}
 			#content{
 				display: inline-block;
-				width: 600px;
-				height: 320px;
+				width: 475px;
 				margin-left: 5px;
 			}
-
-
+			.text{
+				font-size: 20px;
+				position: relative;
+				display: inline-block;
+				padding: 10px;
+			}
+			
 		</style>
 	</head>
 	<body>
 		<div id="container">
 			
-			<div id="header" class="box"> <h1>Header</h1>
-			</div><div id="sidebar" class="box"><h2>Sidebar</h2> 
-			</div><div id="content" class="box"><h2>Content</h2>
-			</div><div id="footer" class="box"><h2>Footer</h2>
+			<div id="header" class="box"> <h1>Header</h1> </div>
+			
+			<div id="sidebar" class="box">
+				<h2>Sidebar</h2> 
+					<p class="text">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+						sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+						magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+						quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+						ut aliquip ex ea commodo consequat. 
+					</p>
+			
+					<p class="text">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+						sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+						magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+						quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+						ut aliquip ex ea commodo consequat. 
+					</p>
 			</div>
+			
+			<div id="content" class="box">
+				<h2>Content</h2> 
+					<p class="text">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+						sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+						magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+						quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+						ut aliquip ex ea commodo consequat. 
+					</p>
+			
+					<p class="text">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+						sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+						magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+						quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+						ut aliquip ex ea commodo consequat.
+					</p>
+			</div>
+			
+			<div id="footer" class="box"><h2>Footer</h2> </div>
 
 		</div>
 	</body>
